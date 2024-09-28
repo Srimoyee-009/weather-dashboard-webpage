@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #0646a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.dashboard {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 30px;
+    text-align: center;
+    width: 530px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.city h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 60px;
+    color: #ff7b54;
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+}
+
+.sunny {
+    background: url('https://img.icons8.com/color/100/sun.png') no-repeat center/contain;
+}
+
+.cloudy {
+    background: url('https://img.icons8.com/color/100/cloud.png') no-repeat center/contain;
+}
+
+.rainy {
+    background: url('https://img.icons8.com/color/100/rain.png') no-repeat center/contain;
+}
+
+.stormy {
+    background: url('https://img.icons8.com/color/100/storm.png') no-repeat center/contain;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.day {
+    text-align: center;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+.day:hover {
+    transform: scale(1.05);
+}
+
+.day h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.day p {
+    font-size: 20px;
+    color: #ff7b54;
+}
+
+.weather-icon-small {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+}
+
+.cloudy-small {
+    background: url('https://img.icons8.com/color/50/cloud.png') no-repeat center/contain;
+}
+
+.rainy-small {
+    background: url('https://img.icons8.com/color/50/rain.png') no-repeat center/contain;
+}
+
+.stormy-small {
+    background: url('https://img.icons8.com/color/50/storm.png') no-repeat center/contain;
+}
+
+.sunny-small {
+    background: url('https://img.icons8.com/color/50/sun.png') no-repeat center/contain;
+}
